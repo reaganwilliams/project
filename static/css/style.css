@@ -1,0 +1,41 @@
+h1 {
+  color: rgb(104, 204, 156);
+  font-size: 10vw;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-size: 4vw;
+   text-align: center;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.button {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(104, 204, 156);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color:rgb(104, 204, 156)}
+
+.button:active {
+  background-color: rgb(104, 204, 156);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
